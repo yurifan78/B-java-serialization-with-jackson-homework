@@ -12,5 +12,6 @@ public class PersonVo {
   private String id;
   private Integer age;
   private String name;
+  @JsonInclude(Include.NON_NULL)
   private String hobby;
 }
