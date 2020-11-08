@@ -8,7 +8,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserVo {
-
+  @JsonProperty("userId")
   private String id;
+  @JsonProperty("userName")
   private String name;
 }

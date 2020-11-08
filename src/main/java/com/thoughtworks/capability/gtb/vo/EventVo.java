@@ -14,5 +14,6 @@ public class EventVo {
   private String name;
   private EventType type;
   private Date time;
+  @JsonUnwrapped
   private UserVo user;
 }
